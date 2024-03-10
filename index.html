@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/images/pngwing.com.png">
+    <title>Foto Moto | Sklep internetowy</title>
+    
+
+</head>
+<body>
+    <header>
+        <h1 class="header-title">
+            <span>Foto</span>
+            <span>Moto</span>
+            <span>&#128247;</span>
+        </h1>
+        <div class="search-bar">
+            <input 
+            type="text"
+            class="search-bar-input"
+            placeholder="Wyszukaj w sklepie..."
+            autocomplete="off"
+            />
+            <div class="search-bar-icon">
+                <img src="assets/images/lupa.png" alt="search-icon" width="40px">
+            </div>
+        </div>
+        <div class="header-basket">
+            <img src="/assets/images/koszyk.svg" alt="shopping-cart-icon" width="40px">
+            <p class="basket-amount">Koszyk</p>
+            <button class="basket-clear-btn">x</button>
+        </div>
+    </header>
+    <main class="container">
+        <aside class="categories">
+            <h1 class="categories-title">Kategorie</h1>
+            <section class="categories-items"></section>
+        </aside>
+        <section class="products"></section>
+        <p class="empty-state">Nie znaleziono żadnego produtu...</p>
+    </main>
+    <script src="assets/script/product.js"></script>
+    <script src="assets/script/main.js"></script>
+</body>
+</html>
